@@ -73,6 +73,6 @@ const config: Config = {
       }
     },
   },
-  plugins: [addVariablesForColors, addSvgPatterns],
+  plugins: [addVariablesForColors,require("daisyui"), addSvgPatterns],
 };
 export default config;
